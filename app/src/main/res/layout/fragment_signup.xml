@@ -14,6 +14,7 @@
         android:layout_marginTop="32dp"
         android:fontFamily="sans-serif-medium"
         android:text="Sign up"
+        android:textColor="#000000"
         android:textSize="34sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -34,7 +35,7 @@
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/user_email_etvl"
-        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        style="@style/TextInputLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="26dp"
@@ -53,12 +54,13 @@
             android:id="@+id/user_email_etv"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textColor="#FF000000"
             android:inputType="textEmailAddress" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/user_password_etvl"
-        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        style="@style/TextInputLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="26dp"
@@ -78,12 +80,13 @@
             android:id="@+id/user_password_etv"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textColor="#FF000000"
             android:inputType="textPassword" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/confirm_password_etvl"
-        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        style="@style/TextInputLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="26dp"
@@ -103,6 +106,7 @@
             android:id="@+id/confirm_password_etv"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textColor="#FF000000"
             android:inputType="textPassword" />
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -138,6 +142,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="65dp"
         android:layout_marginTop="8dp"
+        android:textColor="#000000"
         android:text="Already have an account?"
         android:textSize="16sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -149,7 +154,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:layout_marginEnd="140dp"
+        android:layout_marginEnd="10dp"
         android:text="Sign in here"
         android:textColor="#00ACC1"
         android:textSize="16sp"
